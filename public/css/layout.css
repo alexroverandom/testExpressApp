@@ -1,22 +1,35 @@
 body {
 	background: #ccc;
+	margin: 0 auto;
 }
 
 header {
-	height: 50px;
 	background: #333;
-	color: #fff;
+	color: #eee;
+	width: 100%;
+}
+
+
+header nav {
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
 header ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 header ul li {
 	display: inline-block;
 	padding: 10px 15px;
+	height: 100%;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #eee;
 }
 
 header ul li.active {
@@ -25,4 +38,45 @@ header ul li.active {
 
 header ul li:hover {
 	background-color: #555;
+}
+
+section {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.btn {
+	color: #ccc;
+	background: #16f;
+	padding: 10px 20px;
+	max-width: 200px; 
+	cursor: pointer;
+	margin: 20px;
+}
+
+.welcome {
+	font-size: 3em;
+}
+
+footer {
+	background: #333;
+	color: #aaa;
+	height: 38px;
+	width: 100%;
+}
+
+.footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.footer-left {
+	padding: 9px 15px;
+	float: left;
+}
+
+.footer-right {
+	padding: 9px 15px;
+	float: right;
 }
