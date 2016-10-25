@@ -1,6 +1,12 @@
+html {
+	height: 100%;
+	position: relative;
+}
+
 body {
 	background: #ccc;
 	margin: 0 auto;
+	min-height: 100%;
 }
 
 header {
@@ -64,6 +70,8 @@ footer {
 	color: #aaa;
 	height: 38px;
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 .footer-container {
